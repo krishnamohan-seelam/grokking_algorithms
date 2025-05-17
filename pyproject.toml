@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "grokking_algorithms"
+version = "0.1.0"
+description = "A project to explore and implement various algorithms."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
