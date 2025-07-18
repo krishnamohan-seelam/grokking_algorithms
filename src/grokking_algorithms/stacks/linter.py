@@ -1,3 +1,8 @@
+# add header comment
+# This module provides a Linter class that uses a Matcher to check text for errors,
+# specifically for balanced brackets. It includes a default BracketMatcher and allows
+# for custom matchers to be implemented, adhering to the Open/Closed Principle. 
+
 from collections import deque
 from abc import ABC, abstractmethod
 
